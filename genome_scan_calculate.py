@@ -1,7 +1,6 @@
 # This program takes as input:
 #[1] a VCF file with variants called on all populations of interest and 
 #[2] a config file detailing which populations belong to which groups
-#[3] an indication for which group to use to generate the custom ref
 
 import sys
 from scipy.stats import fisher_exact
